@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Movie{% endblock %}
+{% block content %}
+    <h1>{{name}}</h1>
+    <p>Director: {{director}}</p>
+    <p>Release Year: {{year}}</p>
+    <p>Runtime: {{runtime}}</p>
+    <p>Genre: {{genre}}</p>
+    <p>Actors: {{actors}}</p>
+    <p>Description: {{desc}}</p>
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" value="do" name="Review">Review</button>
+{% endblock %}
